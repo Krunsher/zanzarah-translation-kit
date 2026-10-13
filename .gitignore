@@ -1,0 +1,4 @@
+# Arquivos de trabalho gerados pelo kit (cada tradutor gera os seus)
+kit/base/*.db
+kit/texts.json
+kit/*.fbs
