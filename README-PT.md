@@ -28,15 +28,23 @@ zanzarah-translation-kit/
 ├── installers/              # instaladores prontos, um por idioma
 │   └── ZanZarah-PT-BR-Setup.exe
 └── languages/               # uma pasta por idioma, cada uma com seu texts.json
-    └── pt-BR/
-        └── texts.json
+    ├── pt-BR/
+    │   └── texts.json
+    ├── it/  de/  fr/  es/  nl/  sv/
+    │   └── texts.json
 ```
 
 ## 🌍 Idiomas disponíveis
 
 | Idioma | Sigla | Situação | Autor |
 |---|---|---|---|
-| Português (Brasil) | `pt-BR` | ✅ Completo | [@Krunsher](https://github.com/Krunsher) |
+| Português (Brasil) | `pt-BR` | ✅ Completo | Hugo Leonardo ([@Krunsher](https://github.com/Krunsher)) |
+| Italiano | `it` | ✅ Completo | Hugo Leonardo ([@Krunsher](https://github.com/Krunsher)) |
+| Deutsch | `de` | ✅ Completo | Hugo Leonardo ([@Krunsher](https://github.com/Krunsher)) |
+| Français | `fr` | ✅ Completo | Hugo Leonardo ([@Krunsher](https://github.com/Krunsher)) |
+| Español | `es` | ✅ Completo | Hugo Leonardo ([@Krunsher](https://github.com/Krunsher)) |
+| Nederlands | `nl` | ✅ Completo | Hugo Leonardo ([@Krunsher](https://github.com/Krunsher)) |
+| Svenska | `sv` | ✅ Completo | Hugo Leonardo ([@Krunsher](https://github.com/Krunsher)) |
 
 ---
 
@@ -80,7 +88,7 @@ Os instaladores são feitos com o [Inno Setup 6](https://jrsoftware.org/isinfo.p
 Qualquer pessoa pode adicionar um idioma por Pull Request. Basta enviar o seu `texts.json`:
 
 1. Faça um **fork** deste repositório (botão *Fork* no canto superior direito).
-2. No seu fork, crie `languages/<sigla>/texts.json` com a sigla do idioma, ex.: `es`, `fr`, `it`, `de`, `pt-PT`.
+2. No seu fork, crie `languages/<sigla>/texts.json` com a sigla do idioma, ex.: `pl`, `ru`, `ja`, `pt-PT`.
 3. Abra um **Pull Request** para este repositório descrevendo a tradução.
 
 Depois de revisado e aceito, seu idioma entra na tabela acima. Mexa apenas na pasta do seu idioma.
@@ -89,6 +97,6 @@ Depois de revisado e aceito, seu idioma entra na tabela acima. Mexa apenas na pa
 
 ## 🙏 Créditos
 
-- **Kit de tradução e tradução para português do Brasil:** Hugo ([@Krunsher](https://github.com/Krunsher))
+- **Kit de tradução e traduções (português do Brasil, italiano, alemão, francês, espanhol, holandês e sueco):** Hugo Leonardo ([@Krunsher](https://github.com/Krunsher))
 - **[zzio](https://github.com/Helco/zzio)**, de [Helco](https://github.com/Helco): reimplementação open source da engine de ZanZarah e conjunto de ferramentas para os formatos do jogo. O conversor `zzio_dbsqlite.exe` deste kit é baseado no zzio. Este projeto não existiria sem ele. Obrigado!
 - **ZanZarah: The Hidden Portal** © Funatics Development / THQ Nordic. Este é um projeto de fãs, sem fins lucrativos e sem vínculo com os detentores dos direitos do jogo. Você precisa ter uma cópia original do jogo para usar as traduções.
