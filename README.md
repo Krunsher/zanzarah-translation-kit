@@ -36,7 +36,7 @@ zanzarah-translation-kit/
 
 | Language | Code | Status | Author |
 |---|---|---|---|
-| Português (Brasil) | `pt-BR` | ✅ Complete | [@Krunsher](https://github.com/Krunsher) |
+| Português (Brasil) | `pt-BR` | ✅ Complete | [@Hugo Leonardo](https://github.com/Krunsher) |
 
 ---
 
@@ -89,6 +89,6 @@ Once it is reviewed and merged, your language will be listed in the table above.
 
 ## 🙏 Credits
 
-- **Translation kit and Brazilian Portuguese translation:** Hugo ([@Krunsher](https://github.com/Krunsher))
+- **Translation kit and Brazilian Portuguese translation:** Hugo Leonardo ([@Krunsher](https://github.com/Krunsher))
 - **[zzio](https://github.com/Helco/zzio)** by [Helco](https://github.com/Helco): an open-source reimplementation of the ZanZarah engine and a set of tools for the game's file formats. The `zzio_dbsqlite.exe` converter in this kit is built on zzio. This project would not exist without it. Thank you!
 - **ZanZarah: The Hidden Portal** © Funatics Development / THQ Nordic. This is a non-commercial fan project, not affiliated with or endorsed by the rights holders. You need a legitimate copy of the game to use these translations.
